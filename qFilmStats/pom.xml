@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cs3800-net</groupId>
+  <artifactId>qFilmStats</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Quick Film Stats Program</name>
+  <description>for CS 3800 independent networking project</description>
+  <repositories>
+  	<repository>
+  		<id>omdbapi4j repo</id>
+  		<url>http://omdbapi4j.sf.net/maven2</url>
+  	</repository>
+  </repositories>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.omdbapi</groupId>
+  		<artifactId>omdbapi</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.beust</groupId>
+  		<artifactId>jcommander</artifactId>
+  	</dependency>
+  </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>com.beust</groupId>
+  			<artifactId>jcommander</artifactId>
+  			<version>1.71</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.omdbapi</groupId>
+  			<artifactId>omdbapi</artifactId>
+  			<version>0.1.0</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+</project>
